@@ -152,7 +152,7 @@ GAME.appendChild(rock);
          * the GAME, we want to move it again.
      */
  
-         if(top<360){
+         if(top<GAME_HEIGHT){
                       window.requestAnimationFrame(moveRock)
               
       }
